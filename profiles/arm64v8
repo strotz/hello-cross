@@ -1,0 +1,14 @@
+# Cross building to NVidia Jetson
+[settings]
+os_build=Linux
+arch_build=x86_64
+os=Linux
+arch=armv8
+compiler=gcc
+compiler.version=7
+compiler.libcxx=libstdc++11
+build_type=Release
+
+[env]
+CC=aarch64-linux-gnu-gcc
+CXX=aarch64-linux-gnu-g++
