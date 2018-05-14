@@ -6,4 +6,7 @@ conan_basic_setup()
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hello main.cpp)
+add_library(hello 
+    hello.cpp
+    hello.h
+    )
